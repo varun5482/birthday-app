@@ -1,0 +1,173 @@
+.parent-div{
+    background: #EFEFEF;
+    padding: 3.125rem 0;
+}
+
+.title-div{
+    font-size: 2.5rem;
+    color: grey;
+    margin: 0 0 2.5rem 0;
+    text-align: center;
+}
+
+.card-holders{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.125rem;
+}
+
+.card{
+    height: 15.625rem;
+    background-color: white;
+    margin: 0 0.313rem;
+    width: 11.875rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+} 
+.card.no-birthday{
+    background-color: #E8E8E8;
+}
+
+.card-head{
+    height: 3.125rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0.938rem;
+    align-items: center;
+    color: white;
+    background: #78909c;
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100% - 3.125rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.no-birthday .card-body{
+    justify-content: center;
+}
+
+.no-birthday-holder{
+    font-size: 6rem;
+    line-height: 1px;
+    color: grey;
+    text-align: center;
+}
+.no-birthday-holder .second-div{
+    line-height: 1rem;
+}
+.no-birthday-holder .first-div{
+    line-height: 6rem;
+}
+.text-area-div{
+    width: calc( 70% - 2.5rem );
+    margin-right: 2.5rem;
+}
+
+.input-area{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 1.563rem;
+    margin: 0 3.65rem;
+}
+
+.input-area:after{
+    content: '';
+    width: 90%;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    background-image: radial-gradient(grey, white);
+}
+
+.text-area-style{
+    height: 25rem;
+    min-height: 25rem;
+    width: 99%;
+    resize: vertical;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.text-area-style:focus{
+    outline: none;
+}
+.year-container-div{
+    width: 30%;
+}
+
+.year-input{
+    height: 2.5rem;
+    width: 60%;
+    padding: 0 5px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-bottom: 1.25rem;
+}
+.year-input:focus{
+    outline: none;
+}
+.year-label{
+    color: grey;
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 0.313rem;
+}
+
+.update-btn{
+    height: 3.125rem;
+    width: 40%;
+    color: white;
+    background-color: #1390D3;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.313rem 0;
+}
+.update-btn:hover{
+    color: #fff;
+    background-color: #0E4D92;
+    border-color: #0E4D92;
+}
+
+.card-initals{
+    padding: 5px;
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2.188rem;
+}
+
+
+/*Hide the default arrows*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.card-body::-webkit-scrollbar {
+    width: 4px;
+    position: absolute;
+}
+.card-body::-webkit-scrollbar-track {
+    background: transparent;
+}
+.card-body::-webkit-scrollbar-thumb {
+    background: #78909c; 
+    border-radius: 10px;
+}
+
+.card-body::-webkit-scrollbar-thumb:hover {
+    background:grey ; 
+}
