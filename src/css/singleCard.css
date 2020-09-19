@@ -1,0 +1,76 @@
+/*SINGLE CARD CSS STARTS*/
+.card{
+    height: 15.625rem;
+    background-color: white;
+    margin: 0 0.313rem;
+    width: 11.875rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+} 
+.card.no-birthday{
+    background-color: #E8E8E8;
+}
+
+.card-head{
+    height: 3.125rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0.938rem;
+    align-items: center;
+    color: white;
+    background: #78909c;
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100% - 3.125rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.no-birthday .card-body{
+    justify-content: center;
+}
+
+.no-birthday-holder{
+    font-size: 6rem;
+    line-height: 1px;
+    color: grey;
+    text-align: center;
+}
+.no-birthday-holder .second-div{
+    line-height: 1rem;
+}
+.no-birthday-holder .first-div{
+    line-height: 6rem;
+}
+
+/*Inner inital div*/
+.card-initals{
+    padding: 5px;
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2.188rem;
+}
+
+/*Card ScrollBar*/
+.card-body::-webkit-scrollbar {
+    width: 4px;
+    position: absolute;
+}
+.card-body::-webkit-scrollbar-track {
+    background: transparent;
+}
+.card-body::-webkit-scrollbar-thumb {
+    background: #78909c; 
+    border-radius: 10px;
+}
+
+.card-body::-webkit-scrollbar-thumb:hover {
+    background:grey ; 
+}
+/*ENDS*/

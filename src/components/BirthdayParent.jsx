@@ -14,6 +14,7 @@ const BirthdayParent = (props) => {
         {day: 'SUN', birthdays: []},
     ]);
     
+    //USE TO GET THE INITALS OF A NAME
     const getInital = (sentName) => {
         let name = sentName.split(" ");
         let inital = '';
@@ -24,6 +25,7 @@ const BirthdayParent = (props) => {
         return inital;
     }
 
+    //IT IS USE TO RESET THE DATA SO THAT EVERYTIME YOU RELOAD or update it gets reloaded
     const resetData = () => {
         let data = [
             {day: 'MON', birthdays: []},

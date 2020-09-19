@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from 'react';
+import React,{useState} from 'react';
 import '../css/birthdayComponent.css';
 import defaultJson from './birthdayJSON.json';
 
@@ -15,6 +15,7 @@ const JsonInput = (props) => {
         updateData(dummyData);
     }
 
+    //ON CLICKING ON UPDATE BUTTON
     const fetchBirthdays = () => {
         let data = {};
         if(dataHolder.jsonData){
@@ -53,6 +54,7 @@ const JsonInput = (props) => {
         props.updateData && props.updateData(data);
     }
 
+    //GETTING THE DEFAULT EXAMPLE
     const setDefaultJson = () => {
         let dummyData = {...dataHolder};
         dummyData['jsonData'] = JSON.stringify(defaultJson);

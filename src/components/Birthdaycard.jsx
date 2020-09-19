@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/birthdayComponent.css';
+import '../css/singleCard.css';
 
 const Birthdaycard = (props) => {
     let {day,birthdays} = props.dayData;
@@ -9,11 +9,12 @@ const Birthdaycard = (props) => {
         cardClass += ' no-birthday';
     }
 
+    //For random color on the blocks of initals generating HEX code
     const getRandomColor = () => {
-        let letters = '0123456789ABCDEF';
+        let letters = '0123456789ABCDEF';//The color ranges from 0 - F
         let color = '#';
         for (let index = 0; index < 6; index++) {
-          color += letters[Math.floor(Math.random() * 16)];
+          color += letters[Math.floor(Math.random() * 16)];//Random generates a random number between 0 - 1 so it multiplied by 16
         }
         return color;
     }
@@ -24,15 +25,15 @@ const Birthdaycard = (props) => {
             maxWidth: '100%',
             minWidth: '100%'
         }
-        if(totalCards == 1){
+        if(totalCards == 1){// FOR 1 name;
             widths.maxWidth = widths.minWidth = '100%';
-        }else if(totalCards < 5 && totalCards > 1){
+        }else if(totalCards < 5 && totalCards > 1){// FOR 2 - 4 names;
             widths.maxWidth = '45%';
             widths.minWidth = '44%';
-        }else if(totalCards > 4 && totalCards < 9){
+        }else if(totalCards > 4 && totalCards < 9){// FOR 5 - 8 names;
             widths.maxWidth = '29%';
             widths.minWidth = '28%';
-        }else{
+        }else{ //REST number names
             widths.maxWidth = '20%';
             widths.minWidth = '19%';
         }
@@ -46,6 +47,7 @@ const Birthdaycard = (props) => {
                 {birthdays.length > 0 ? birthdays.map(birthday => {
                     return getCard(birthday);
                 }):<div className="no-birthday-holder">
+                        {/* EMOJI PURPOSE */}
                         <div className='first-div'><span>.</span><span>.</span></div>
                         <div className="second-div">~</div>
                     </div>}
