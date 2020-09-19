@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/birthday-app/static/css/main.5e87f21e.chunk.css",
-    "main.js": "/birthday-app/static/js/main.d120b8f9.chunk.js",
-    "main.js.map": "/birthday-app/static/js/main.d120b8f9.chunk.js.map",
-    "runtime-main.js": "/birthday-app/static/js/runtime-main.1dda3dd2.js",
-    "runtime-main.js.map": "/birthday-app/static/js/runtime-main.1dda3dd2.js.map",
-    "static/js/2.c8bb3bac.chunk.js": "/birthday-app/static/js/2.c8bb3bac.chunk.js",
-    "static/js/2.c8bb3bac.chunk.js.map": "/birthday-app/static/js/2.c8bb3bac.chunk.js.map",
-    "index.html": "/birthday-app/index.html",
-    "precache-manifest.631a19af78a2de665f7060d19a018c60.js": "/birthday-app/precache-manifest.631a19af78a2de665f7060d19a018c60.js",
-    "service-worker.js": "/birthday-app/service-worker.js",
-    "static/css/main.5e87f21e.chunk.css.map": "/birthday-app/static/css/main.5e87f21e.chunk.css.map",
-    "static/js/2.c8bb3bac.chunk.js.LICENSE.txt": "/birthday-app/static/js/2.c8bb3bac.chunk.js.LICENSE.txt"
+    "main.css": "/birthday-app/git/static/css/main.5e87f21e.chunk.css",
+    "main.js": "/birthday-app/git/static/js/main.d120b8f9.chunk.js",
+    "main.js.map": "/birthday-app/git/static/js/main.d120b8f9.chunk.js.map",
+    "runtime-main.js": "/birthday-app/git/static/js/runtime-main.1b5e949a.js",
+    "runtime-main.js.map": "/birthday-app/git/static/js/runtime-main.1b5e949a.js.map",
+    "static/js/2.c8bb3bac.chunk.js": "/birthday-app/git/static/js/2.c8bb3bac.chunk.js",
+    "static/js/2.c8bb3bac.chunk.js.map": "/birthday-app/git/static/js/2.c8bb3bac.chunk.js.map",
+    "index.html": "/birthday-app/git/index.html",
+    "precache-manifest.87689a9b1ad06dfe88b0f4474f6156f1.js": "/birthday-app/git/precache-manifest.87689a9b1ad06dfe88b0f4474f6156f1.js",
+    "service-worker.js": "/birthday-app/git/service-worker.js",
+    "static/css/main.5e87f21e.chunk.css.map": "/birthday-app/git/static/css/main.5e87f21e.chunk.css.map",
+    "static/js/2.c8bb3bac.chunk.js.LICENSE.txt": "/birthday-app/git/static/js/2.c8bb3bac.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1dda3dd2.js",
+    "static/js/runtime-main.1b5e949a.js",
     "static/js/2.c8bb3bac.chunk.js",
     "static/css/main.5e87f21e.chunk.css",
     "static/js/main.d120b8f9.chunk.js"
